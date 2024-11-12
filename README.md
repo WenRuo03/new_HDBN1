@@ -114,7 +114,7 @@
 --来自百度网盘超级会员v3的分享**
 
 ##  运行mix获取融合后的pred.npy文件
-**先检查34个pkl置信度文件是否都移动到```mix_data```文件夹下，然后直接运行以下代码即可获得```pred.npy```**
+**先检查34个pkl置信度文件是否都移动到```mix_data```文件夹下，然后直接运行以下代码即可获得```pred.npy```**<br />
 **mix_A2.py生成val数据集的pred文件**
 ```angular2html
 python mix_A2.py
