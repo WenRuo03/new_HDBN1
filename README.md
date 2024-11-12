@@ -295,7 +295,7 @@ python main.py --config ./config/mixformer_V2_k2M.yaml --phase test --save-score
 
 ## 验证训练过程
 
-**如需要重新验证训练过程，请下载测试集A，按照上述数据集导入方法进行放置，同时更改yaml文件。**<br />
+**如需要重新验证训练过程，请使用val测试集，按照上述数据集导入方法进行放置，同时更改yaml文件。**<br />
 ```angular2html
 cd CTR_GCN
 python main.py --config ./config/ctrgcn_J.yaml --device 0
