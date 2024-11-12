@@ -1,0 +1,47 @@
+# feeder
+feeder: feeders.feeder_new.Feeder2
+train_feeder_args:
+  data_path: autodl-tmp/data/train_joint.npy
+  label_path: autodl-tmp/data/train_label.npy
+  debug: False
+  random_choose: True
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  bone: False
+  vel: True
+
+test_feeder_args:
+  data_path: autodl-tmp/data/val_joint.npy
+  label_path: autodl-tmp/data/val_label.npy
+  debug: False
+
+
+# model
+model: model_mst.mstgcn.Model
+model_args:
+  num_class: 155
+  num_point: 17
+  num_person: 2
+  graph: graph.uav.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+  in_channels: 3
+
+#optim
+weight_decay: 0.0001
+base_lr: 0.1
+lr_decay_rate: 0.1
+step: [35,55]
+
+# training
+device: 0
+batch_size: 64
+test_batch_size: 64
+num_epoch: 75
+nesterov: True
+warm_up_epoch: 5
+
+
+work_dir: mix_gcn-master/TD_GCN/work_dir/mst_jm

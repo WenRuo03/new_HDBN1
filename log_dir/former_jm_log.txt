@@ -1,0 +1,522 @@
+[ Tue Nov  5 17:05:42 2024 ] using warm up, epoch: 5
+[ Tue Nov  5 17:05:44 2024 ] Parameters:
+{'work_dir': './output/skmixf__V2_JM', 'model_saved_name': './output/skmixf__V2_JM/runs', 'config': './config/mixformer_V2_JM.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_xyz.Feeder', 'num_worker': 32, 'train_feeder_args': {'bone': False, 'data_path': 'dataset/train_joint.npy', 'label_path': 'dataset/train_label.npy', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': True, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': 'dataset/val_joint.npy', 'label_path': 'dataset/val_label.npy', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': True, 'window_size': 64}, 'model': 'model.ske_mixf.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 70, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Tue Nov  5 17:05:44 2024 ] # Parameters: 1998023
+[ Tue Nov  5 17:05:44 2024 ] Training epoch: 1
+[ Tue Nov  5 17:07:41 2024 ] using warm up, epoch: 5
+[ Tue Nov  5 17:07:43 2024 ] Parameters:
+{'work_dir': './output/skmixf__V2_JM', 'model_saved_name': './output/skmixf__V2_JM/runs', 'config': './config/mixformer_V2_JM.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_xyz.Feeder', 'num_worker': 32, 'train_feeder_args': {'bone': False, 'data_path': 'dataset/train_joint.npy', 'label_path': 'dataset/train_label.npy', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': True, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': 'dataset/val_joint.npy', 'label_path': 'dataset/val_label.npy', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': True, 'window_size': 64}, 'model': 'model.ske_mixf.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 70, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Tue Nov  5 17:07:43 2024 ] # Parameters: 1998023
+[ Tue Nov  5 17:07:43 2024 ] Training epoch: 1
+[ Tue Nov  5 17:13:43 2024 ] using warm up, epoch: 5
+[ Tue Nov  5 17:13:45 2024 ] Parameters:
+{'work_dir': './output/skmixf__V2_JM', 'model_saved_name': './output/skmixf__V2_JM/runs', 'config': './config/mixformer_V2_JM.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_xyz.Feeder', 'num_worker': 32, 'train_feeder_args': {'bone': False, 'data_path': 'dataset/train_joint.npy', 'label_path': 'dataset/train_label.npy', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': True, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': 'dataset/val_joint.npy', 'label_path': 'dataset/val_label.npy', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': True, 'window_size': 64}, 'model': 'model.ske_mixf.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 70, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Tue Nov  5 17:13:45 2024 ] # Parameters: 1998023
+[ Tue Nov  5 17:13:45 2024 ] Training epoch: 1
+[ Tue Nov  5 17:19:39 2024 ] using warm up, epoch: 5
+[ Tue Nov  5 17:19:41 2024 ] Parameters:
+{'work_dir': './output/skmixf__V2_JM', 'model_saved_name': './output/skmixf__V2_JM/runs', 'config': './config/mixformer_V2_JM.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_xyz.Feeder', 'num_worker': 32, 'train_feeder_args': {'bone': False, 'data_path': 'dataset/train_joint.npy', 'label_path': 'dataset/train_label.npy', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': True, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': 'dataset/val_joint.npy', 'label_path': 'dataset/val_label.npy', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': True, 'window_size': 64}, 'model': 'model.ske_mixf.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 70, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Tue Nov  5 17:19:41 2024 ] # Parameters: 1998023
+[ Tue Nov  5 17:19:41 2024 ] Training epoch: 1
+[ Tue Nov  5 17:23:51 2024 ] 	Mean training loss: 5.5791.  Mean training acc: 2.21%.
+[ Tue Nov  5 17:23:51 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:23:51 2024 ] Eval epoch: 1
+[ Tue Nov  5 17:24:13 2024 ] 	Mean test loss of 16 batches: 5.228205442428589.
+[ Tue Nov  5 17:24:13 2024 ] 	Top1: 3.05%
+[ Tue Nov  5 17:24:13 2024 ] 	Top5: 11.80%
+[ Tue Nov  5 17:24:13 2024 ] Training epoch: 2
+[ Tue Nov  5 17:28:21 2024 ] 	Mean training loss: 4.2278.  Mean training acc: 4.99%.
+[ Tue Nov  5 17:28:21 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:28:21 2024 ] Eval epoch: 2
+[ Tue Nov  5 17:28:43 2024 ] 	Mean test loss of 16 batches: 4.763526082038879.
+[ Tue Nov  5 17:28:43 2024 ] 	Top1: 3.35%
+[ Tue Nov  5 17:28:43 2024 ] 	Top5: 13.30%
+[ Tue Nov  5 17:28:43 2024 ] Training epoch: 3
+[ Tue Nov  5 17:32:52 2024 ] 	Mean training loss: 3.7801.  Mean training acc: 9.94%.
+[ Tue Nov  5 17:32:52 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:32:52 2024 ] Eval epoch: 3
+[ Tue Nov  5 17:33:13 2024 ] 	Mean test loss of 16 batches: 4.465293884277344.
+[ Tue Nov  5 17:33:13 2024 ] 	Top1: 5.55%
+[ Tue Nov  5 17:33:13 2024 ] 	Top5: 18.75%
+[ Tue Nov  5 17:33:13 2024 ] Training epoch: 4
+[ Tue Nov  5 17:37:20 2024 ] 	Mean training loss: 3.4348.  Mean training acc: 13.98%.
+[ Tue Nov  5 17:37:20 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:37:20 2024 ] Eval epoch: 4
+[ Tue Nov  5 17:37:42 2024 ] 	Mean test loss of 16 batches: 4.331642895936966.
+[ Tue Nov  5 17:37:42 2024 ] 	Top1: 5.55%
+[ Tue Nov  5 17:37:42 2024 ] 	Top5: 20.90%
+[ Tue Nov  5 17:37:42 2024 ] Training epoch: 5
+[ Tue Nov  5 17:41:48 2024 ] 	Mean training loss: 3.0140.  Mean training acc: 21.12%.
+[ Tue Nov  5 17:41:48 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:41:48 2024 ] Eval epoch: 5
+[ Tue Nov  5 17:42:11 2024 ] 	Mean test loss of 16 batches: 4.444835335016251.
+[ Tue Nov  5 17:42:11 2024 ] 	Top1: 6.45%
+[ Tue Nov  5 17:42:11 2024 ] 	Top5: 22.65%
+[ Tue Nov  5 17:42:11 2024 ] Training epoch: 6
+[ Tue Nov  5 17:46:19 2024 ] 	Mean training loss: 2.7161.  Mean training acc: 27.36%.
+[ Tue Nov  5 17:46:19 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:46:19 2024 ] Eval epoch: 6
+[ Tue Nov  5 17:46:40 2024 ] 	Mean test loss of 16 batches: 5.668647319078445.
+[ Tue Nov  5 17:46:40 2024 ] 	Top1: 4.30%
+[ Tue Nov  5 17:46:40 2024 ] 	Top5: 14.85%
+[ Tue Nov  5 17:46:40 2024 ] Training epoch: 7
+[ Tue Nov  5 17:51:00 2024 ] 	Mean training loss: 2.5231.  Mean training acc: 31.65%.
+[ Tue Nov  5 17:51:00 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:51:00 2024 ] Eval epoch: 7
+[ Tue Nov  5 17:51:24 2024 ] 	Mean test loss of 16 batches: 4.214733392000198.
+[ Tue Nov  5 17:51:24 2024 ] 	Top1: 11.65%
+[ Tue Nov  5 17:51:24 2024 ] 	Top5: 32.35%
+[ Tue Nov  5 17:51:24 2024 ] Training epoch: 8
+[ Tue Nov  5 17:55:41 2024 ] 	Mean training loss: 2.3548.  Mean training acc: 35.55%.
+[ Tue Nov  5 17:55:41 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 17:55:41 2024 ] Eval epoch: 8
+[ Tue Nov  5 17:56:03 2024 ] 	Mean test loss of 16 batches: 5.538606643676758.
+[ Tue Nov  5 17:56:03 2024 ] 	Top1: 7.90%
+[ Tue Nov  5 17:56:03 2024 ] 	Top5: 23.45%
+[ Tue Nov  5 17:56:03 2024 ] Training epoch: 9
+[ Tue Nov  5 18:00:32 2024 ] 	Mean training loss: 2.2661.  Mean training acc: 37.42%.
+[ Tue Nov  5 18:00:32 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:00:32 2024 ] Eval epoch: 9
+[ Tue Nov  5 18:00:54 2024 ] 	Mean test loss of 16 batches: 4.044774979352951.
+[ Tue Nov  5 18:00:54 2024 ] 	Top1: 13.90%
+[ Tue Nov  5 18:00:54 2024 ] 	Top5: 35.25%
+[ Tue Nov  5 18:00:54 2024 ] Training epoch: 10
+[ Tue Nov  5 18:05:16 2024 ] 	Mean training loss: 2.1960.  Mean training acc: 39.41%.
+[ Tue Nov  5 18:05:16 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:05:16 2024 ] Eval epoch: 10
+[ Tue Nov  5 18:05:38 2024 ] 	Mean test loss of 16 batches: 3.8395562320947647.
+[ Tue Nov  5 18:05:38 2024 ] 	Top1: 15.80%
+[ Tue Nov  5 18:05:38 2024 ] 	Top5: 36.95%
+[ Tue Nov  5 18:05:38 2024 ] Training epoch: 11
+[ Tue Nov  5 18:10:00 2024 ] 	Mean training loss: 2.1226.  Mean training acc: 41.01%.
+[ Tue Nov  5 18:10:00 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:10:00 2024 ] Eval epoch: 11
+[ Tue Nov  5 18:10:21 2024 ] 	Mean test loss of 16 batches: 5.100725024938583.
+[ Tue Nov  5 18:10:21 2024 ] 	Top1: 11.85%
+[ Tue Nov  5 18:10:21 2024 ] 	Top5: 29.70%
+[ Tue Nov  5 18:10:21 2024 ] Training epoch: 12
+[ Tue Nov  5 18:14:41 2024 ] 	Mean training loss: 2.0534.  Mean training acc: 42.40%.
+[ Tue Nov  5 18:14:41 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:14:41 2024 ] Eval epoch: 12
+[ Tue Nov  5 18:15:03 2024 ] 	Mean test loss of 16 batches: 6.9983444809913635.
+[ Tue Nov  5 18:15:03 2024 ] 	Top1: 5.25%
+[ Tue Nov  5 18:15:03 2024 ] 	Top5: 16.45%
+[ Tue Nov  5 18:15:03 2024 ] Training epoch: 13
+[ Tue Nov  5 18:19:18 2024 ] 	Mean training loss: 2.0176.  Mean training acc: 43.85%.
+[ Tue Nov  5 18:19:18 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:19:18 2024 ] Eval epoch: 13
+[ Tue Nov  5 18:19:42 2024 ] 	Mean test loss of 16 batches: 4.031623646616936.
+[ Tue Nov  5 18:19:42 2024 ] 	Top1: 18.85%
+[ Tue Nov  5 18:19:42 2024 ] 	Top5: 38.75%
+[ Tue Nov  5 18:19:42 2024 ] Training epoch: 14
+[ Tue Nov  5 18:24:14 2024 ] 	Mean training loss: 1.9666.  Mean training acc: 44.87%.
+[ Tue Nov  5 18:24:14 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:24:14 2024 ] Eval epoch: 14
+[ Tue Nov  5 18:24:37 2024 ] 	Mean test loss of 16 batches: 3.761022627353668.
+[ Tue Nov  5 18:24:37 2024 ] 	Top1: 18.20%
+[ Tue Nov  5 18:24:37 2024 ] 	Top5: 40.45%
+[ Tue Nov  5 18:24:37 2024 ] Training epoch: 15
+[ Tue Nov  5 18:28:59 2024 ] 	Mean training loss: 1.9279.  Mean training acc: 46.09%.
+[ Tue Nov  5 18:28:59 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:28:59 2024 ] Eval epoch: 15
+[ Tue Nov  5 18:29:22 2024 ] 	Mean test loss of 16 batches: 5.247487396001816.
+[ Tue Nov  5 18:29:22 2024 ] 	Top1: 11.65%
+[ Tue Nov  5 18:29:22 2024 ] 	Top5: 27.85%
+[ Tue Nov  5 18:29:22 2024 ] Training epoch: 16
+[ Tue Nov  5 18:33:46 2024 ] 	Mean training loss: 1.8793.  Mean training acc: 47.13%.
+[ Tue Nov  5 18:33:46 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:33:46 2024 ] Eval epoch: 16
+[ Tue Nov  5 18:34:08 2024 ] 	Mean test loss of 16 batches: 4.138185992836952.
+[ Tue Nov  5 18:34:08 2024 ] 	Top1: 17.50%
+[ Tue Nov  5 18:34:08 2024 ] 	Top5: 39.35%
+[ Tue Nov  5 18:34:08 2024 ] Training epoch: 17
+[ Tue Nov  5 18:38:32 2024 ] 	Mean training loss: 1.8607.  Mean training acc: 47.64%.
+[ Tue Nov  5 18:38:32 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:38:32 2024 ] Eval epoch: 17
+[ Tue Nov  5 18:38:55 2024 ] 	Mean test loss of 16 batches: 3.5455857813358307.
+[ Tue Nov  5 18:38:55 2024 ] 	Top1: 23.50%
+[ Tue Nov  5 18:38:55 2024 ] 	Top5: 46.70%
+[ Tue Nov  5 18:38:55 2024 ] Training epoch: 18
+[ Tue Nov  5 18:43:24 2024 ] 	Mean training loss: 1.8459.  Mean training acc: 48.11%.
+[ Tue Nov  5 18:43:24 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:43:24 2024 ] Eval epoch: 18
+[ Tue Nov  5 18:43:48 2024 ] 	Mean test loss of 16 batches: 4.102043300867081.
+[ Tue Nov  5 18:43:48 2024 ] 	Top1: 17.75%
+[ Tue Nov  5 18:43:48 2024 ] 	Top5: 39.20%
+[ Tue Nov  5 18:43:48 2024 ] Training epoch: 19
+[ Tue Nov  5 18:48:02 2024 ] 	Mean training loss: 1.8008.  Mean training acc: 49.27%.
+[ Tue Nov  5 18:48:02 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:48:02 2024 ] Eval epoch: 19
+[ Tue Nov  5 18:48:24 2024 ] 	Mean test loss of 16 batches: 5.859704881906509.
+[ Tue Nov  5 18:48:24 2024 ] 	Top1: 11.65%
+[ Tue Nov  5 18:48:24 2024 ] 	Top5: 28.05%
+[ Tue Nov  5 18:48:24 2024 ] Training epoch: 20
+[ Tue Nov  5 18:52:39 2024 ] 	Mean training loss: 1.8057.  Mean training acc: 49.47%.
+[ Tue Nov  5 18:52:39 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:52:39 2024 ] Eval epoch: 20
+[ Tue Nov  5 18:53:02 2024 ] 	Mean test loss of 16 batches: 3.35431307554245.
+[ Tue Nov  5 18:53:02 2024 ] 	Top1: 25.80%
+[ Tue Nov  5 18:53:02 2024 ] 	Top5: 47.85%
+[ Tue Nov  5 18:53:02 2024 ] Training epoch: 21
+[ Tue Nov  5 18:57:30 2024 ] 	Mean training loss: 1.7485.  Mean training acc: 50.64%.
+[ Tue Nov  5 18:57:30 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 18:57:30 2024 ] Eval epoch: 21
+[ Tue Nov  5 18:57:50 2024 ] 	Mean test loss of 16 batches: 3.5866423547267914.
+[ Tue Nov  5 18:57:50 2024 ] 	Top1: 23.55%
+[ Tue Nov  5 18:57:50 2024 ] 	Top5: 47.05%
+[ Tue Nov  5 18:57:50 2024 ] Training epoch: 22
+[ Tue Nov  5 19:02:13 2024 ] 	Mean training loss: 1.7334.  Mean training acc: 50.98%.
+[ Tue Nov  5 19:02:13 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:02:13 2024 ] Eval epoch: 22
+[ Tue Nov  5 19:02:35 2024 ] 	Mean test loss of 16 batches: 3.530190408229828.
+[ Tue Nov  5 19:02:35 2024 ] 	Top1: 24.45%
+[ Tue Nov  5 19:02:35 2024 ] 	Top5: 48.20%
+[ Tue Nov  5 19:02:35 2024 ] Training epoch: 23
+[ Tue Nov  5 19:07:12 2024 ] 	Mean training loss: 1.7023.  Mean training acc: 51.94%.
+[ Tue Nov  5 19:07:12 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:07:12 2024 ] Eval epoch: 23
+[ Tue Nov  5 19:07:35 2024 ] 	Mean test loss of 16 batches: 3.2891370207071304.
+[ Tue Nov  5 19:07:35 2024 ] 	Top1: 25.50%
+[ Tue Nov  5 19:07:35 2024 ] 	Top5: 48.85%
+[ Tue Nov  5 19:07:35 2024 ] Training epoch: 24
+[ Tue Nov  5 19:12:00 2024 ] 	Mean training loss: 1.6870.  Mean training acc: 52.60%.
+[ Tue Nov  5 19:12:00 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:12:00 2024 ] Eval epoch: 24
+[ Tue Nov  5 19:12:22 2024 ] 	Mean test loss of 16 batches: 4.488406702876091.
+[ Tue Nov  5 19:12:22 2024 ] 	Top1: 20.55%
+[ Tue Nov  5 19:12:22 2024 ] 	Top5: 39.30%
+[ Tue Nov  5 19:12:22 2024 ] Training epoch: 25
+[ Tue Nov  5 19:16:50 2024 ] 	Mean training loss: 1.6528.  Mean training acc: 52.72%.
+[ Tue Nov  5 19:16:50 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:16:50 2024 ] Eval epoch: 25
+[ Tue Nov  5 19:17:12 2024 ] 	Mean test loss of 16 batches: 4.986920773983002.
+[ Tue Nov  5 19:17:12 2024 ] 	Top1: 16.35%
+[ Tue Nov  5 19:17:12 2024 ] 	Top5: 34.50%
+[ Tue Nov  5 19:17:12 2024 ] Training epoch: 26
+[ Tue Nov  5 19:21:31 2024 ] 	Mean training loss: 1.6441.  Mean training acc: 53.38%.
+[ Tue Nov  5 19:21:31 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:21:32 2024 ] Eval epoch: 26
+[ Tue Nov  5 19:21:55 2024 ] 	Mean test loss of 16 batches: 4.885040670633316.
+[ Tue Nov  5 19:21:55 2024 ] 	Top1: 16.00%
+[ Tue Nov  5 19:21:55 2024 ] 	Top5: 33.15%
+[ Tue Nov  5 19:21:55 2024 ] Training epoch: 27
+[ Tue Nov  5 19:26:18 2024 ] 	Mean training loss: 1.6183.  Mean training acc: 53.83%.
+[ Tue Nov  5 19:26:18 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:26:18 2024 ] Eval epoch: 27
+[ Tue Nov  5 19:26:41 2024 ] 	Mean test loss of 16 batches: 3.4769028425216675.
+[ Tue Nov  5 19:26:41 2024 ] 	Top1: 24.55%
+[ Tue Nov  5 19:26:41 2024 ] 	Top5: 47.50%
+[ Tue Nov  5 19:26:41 2024 ] Training epoch: 28
+[ Tue Nov  5 19:30:58 2024 ] 	Mean training loss: 1.6030.  Mean training acc: 53.97%.
+[ Tue Nov  5 19:30:58 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:30:58 2024 ] Eval epoch: 28
+[ Tue Nov  5 19:31:21 2024 ] 	Mean test loss of 16 batches: 6.952416956424713.
+[ Tue Nov  5 19:31:21 2024 ] 	Top1: 8.50%
+[ Tue Nov  5 19:31:21 2024 ] 	Top5: 21.70%
+[ Tue Nov  5 19:31:21 2024 ] Training epoch: 29
+[ Tue Nov  5 19:35:38 2024 ] 	Mean training loss: 1.5937.  Mean training acc: 54.62%.
+[ Tue Nov  5 19:35:38 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:35:38 2024 ] Eval epoch: 29
+[ Tue Nov  5 19:36:01 2024 ] 	Mean test loss of 16 batches: 3.6616430431604385.
+[ Tue Nov  5 19:36:01 2024 ] 	Top1: 23.10%
+[ Tue Nov  5 19:36:01 2024 ] 	Top5: 48.05%
+[ Tue Nov  5 19:36:01 2024 ] Training epoch: 30
+[ Tue Nov  5 19:40:40 2024 ] 	Mean training loss: 1.5609.  Mean training acc: 55.73%.
+[ Tue Nov  5 19:40:40 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:40:40 2024 ] Eval epoch: 30
+[ Tue Nov  5 19:41:02 2024 ] 	Mean test loss of 16 batches: 4.797603636980057.
+[ Tue Nov  5 19:41:02 2024 ] 	Top1: 17.60%
+[ Tue Nov  5 19:41:02 2024 ] 	Top5: 36.05%
+[ Tue Nov  5 19:41:02 2024 ] Training epoch: 31
+[ Tue Nov  5 19:45:26 2024 ] 	Mean training loss: 1.5658.  Mean training acc: 55.11%.
+[ Tue Nov  5 19:45:26 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:45:26 2024 ] Eval epoch: 31
+[ Tue Nov  5 19:45:49 2024 ] 	Mean test loss of 16 batches: 3.844996228814125.
+[ Tue Nov  5 19:45:49 2024 ] 	Top1: 24.65%
+[ Tue Nov  5 19:45:49 2024 ] 	Top5: 48.80%
+[ Tue Nov  5 19:45:49 2024 ] Training epoch: 32
+[ Tue Nov  5 19:50:03 2024 ] 	Mean training loss: 1.5538.  Mean training acc: 55.58%.
+[ Tue Nov  5 19:50:03 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:50:03 2024 ] Eval epoch: 32
+[ Tue Nov  5 19:50:26 2024 ] 	Mean test loss of 16 batches: 6.227289587259293.
+[ Tue Nov  5 19:50:26 2024 ] 	Top1: 12.50%
+[ Tue Nov  5 19:50:26 2024 ] 	Top5: 27.85%
+[ Tue Nov  5 19:50:26 2024 ] Training epoch: 33
+[ Tue Nov  5 19:54:41 2024 ] 	Mean training loss: 1.5187.  Mean training acc: 56.69%.
+[ Tue Nov  5 19:54:41 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:54:41 2024 ] Eval epoch: 33
+[ Tue Nov  5 19:55:03 2024 ] 	Mean test loss of 16 batches: 3.921067863702774.
+[ Tue Nov  5 19:55:03 2024 ] 	Top1: 24.95%
+[ Tue Nov  5 19:55:03 2024 ] 	Top5: 46.80%
+[ Tue Nov  5 19:55:03 2024 ] Training epoch: 34
+[ Tue Nov  5 19:59:25 2024 ] 	Mean training loss: 1.5098.  Mean training acc: 56.45%.
+[ Tue Nov  5 19:59:25 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 19:59:25 2024 ] Eval epoch: 34
+[ Tue Nov  5 19:59:48 2024 ] 	Mean test loss of 16 batches: 10.618466913700104.
+[ Tue Nov  5 19:59:48 2024 ] 	Top1: 5.55%
+[ Tue Nov  5 19:59:48 2024 ] 	Top5: 14.55%
+[ Tue Nov  5 19:59:48 2024 ] Training epoch: 35
+[ Tue Nov  5 20:04:01 2024 ] 	Mean training loss: 1.5090.  Mean training acc: 56.36%.
+[ Tue Nov  5 20:04:01 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:04:01 2024 ] Eval epoch: 35
+[ Tue Nov  5 20:04:23 2024 ] 	Mean test loss of 16 batches: 3.785426378250122.
+[ Tue Nov  5 20:04:23 2024 ] 	Top1: 25.70%
+[ Tue Nov  5 20:04:23 2024 ] 	Top5: 48.30%
+[ Tue Nov  5 20:04:23 2024 ] Training epoch: 36
+[ Tue Nov  5 20:08:37 2024 ] 	Mean training loss: 1.4886.  Mean training acc: 57.04%.
+[ Tue Nov  5 20:08:37 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:08:37 2024 ] Eval epoch: 36
+[ Tue Nov  5 20:09:00 2024 ] 	Mean test loss of 16 batches: 6.179425448179245.
+[ Tue Nov  5 20:09:00 2024 ] 	Top1: 10.80%
+[ Tue Nov  5 20:09:00 2024 ] 	Top5: 27.35%
+[ Tue Nov  5 20:09:00 2024 ] Training epoch: 37
+[ Tue Nov  5 20:13:32 2024 ] 	Mean training loss: 1.4663.  Mean training acc: 57.87%.
+[ Tue Nov  5 20:13:32 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:13:32 2024 ] Eval epoch: 37
+[ Tue Nov  5 20:13:55 2024 ] 	Mean test loss of 16 batches: 5.480912894010544.
+[ Tue Nov  5 20:13:55 2024 ] 	Top1: 14.30%
+[ Tue Nov  5 20:13:55 2024 ] 	Top5: 30.55%
+[ Tue Nov  5 20:13:55 2024 ] Training epoch: 38
+[ Tue Nov  5 20:18:10 2024 ] 	Mean training loss: 1.4623.  Mean training acc: 58.21%.
+[ Tue Nov  5 20:18:10 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:18:10 2024 ] Eval epoch: 38
+[ Tue Nov  5 20:18:32 2024 ] 	Mean test loss of 16 batches: 3.760643392801285.
+[ Tue Nov  5 20:18:32 2024 ] 	Top1: 24.65%
+[ Tue Nov  5 20:18:32 2024 ] 	Top5: 48.95%
+[ Tue Nov  5 20:18:32 2024 ] Training epoch: 39
+[ Tue Nov  5 20:23:00 2024 ] 	Mean training loss: 1.4712.  Mean training acc: 57.87%.
+[ Tue Nov  5 20:23:00 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:23:00 2024 ] Eval epoch: 39
+[ Tue Nov  5 20:23:24 2024 ] 	Mean test loss of 16 batches: 3.4275967180728912.
+[ Tue Nov  5 20:23:24 2024 ] 	Top1: 28.70%
+[ Tue Nov  5 20:23:24 2024 ] 	Top5: 50.90%
+[ Tue Nov  5 20:23:24 2024 ] Training epoch: 40
+[ Tue Nov  5 20:27:46 2024 ] 	Mean training loss: 1.4549.  Mean training acc: 57.80%.
+[ Tue Nov  5 20:27:46 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:27:46 2024 ] Eval epoch: 40
+[ Tue Nov  5 20:28:09 2024 ] 	Mean test loss of 16 batches: 3.675509497523308.
+[ Tue Nov  5 20:28:09 2024 ] 	Top1: 25.45%
+[ Tue Nov  5 20:28:09 2024 ] 	Top5: 48.90%
+[ Tue Nov  5 20:28:09 2024 ] Training epoch: 41
+[ Tue Nov  5 20:32:31 2024 ] 	Mean training loss: 1.4215.  Mean training acc: 59.22%.
+[ Tue Nov  5 20:32:31 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:32:31 2024 ] Eval epoch: 41
+[ Tue Nov  5 20:32:54 2024 ] 	Mean test loss of 16 batches: 4.085803791880608.
+[ Tue Nov  5 20:32:54 2024 ] 	Top1: 22.65%
+[ Tue Nov  5 20:32:54 2024 ] 	Top5: 46.45%
+[ Tue Nov  5 20:32:54 2024 ] Training epoch: 42
+[ Tue Nov  5 20:37:11 2024 ] 	Mean training loss: 1.4302.  Mean training acc: 59.06%.
+[ Tue Nov  5 20:37:11 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:37:11 2024 ] Eval epoch: 42
+[ Tue Nov  5 20:37:34 2024 ] 	Mean test loss of 16 batches: 3.8148286789655685.
+[ Tue Nov  5 20:37:34 2024 ] 	Top1: 23.20%
+[ Tue Nov  5 20:37:34 2024 ] 	Top5: 47.70%
+[ Tue Nov  5 20:37:34 2024 ] Training epoch: 43
+[ Tue Nov  5 20:41:59 2024 ] 	Mean training loss: 1.4186.  Mean training acc: 58.87%.
+[ Tue Nov  5 20:41:59 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:41:59 2024 ] Eval epoch: 43
+[ Tue Nov  5 20:42:24 2024 ] 	Mean test loss of 16 batches: 3.7860389351844788.
+[ Tue Nov  5 20:42:24 2024 ] 	Top1: 26.10%
+[ Tue Nov  5 20:42:24 2024 ] 	Top5: 49.00%
+[ Tue Nov  5 20:42:24 2024 ] Training epoch: 44
+[ Tue Nov  5 20:46:49 2024 ] 	Mean training loss: 1.3899.  Mean training acc: 59.64%.
+[ Tue Nov  5 20:46:49 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:46:49 2024 ] Eval epoch: 44
+[ Tue Nov  5 20:47:11 2024 ] 	Mean test loss of 16 batches: 3.639337196946144.
+[ Tue Nov  5 20:47:11 2024 ] 	Top1: 24.40%
+[ Tue Nov  5 20:47:11 2024 ] 	Top5: 46.85%
+[ Tue Nov  5 20:47:11 2024 ] Training epoch: 45
+[ Tue Nov  5 20:51:40 2024 ] 	Mean training loss: 1.4102.  Mean training acc: 58.94%.
+[ Tue Nov  5 20:51:40 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:51:40 2024 ] Eval epoch: 45
+[ Tue Nov  5 20:52:02 2024 ] 	Mean test loss of 16 batches: 3.673261508345604.
+[ Tue Nov  5 20:52:02 2024 ] 	Top1: 27.15%
+[ Tue Nov  5 20:52:02 2024 ] 	Top5: 50.90%
+[ Tue Nov  5 20:52:02 2024 ] Training epoch: 46
+[ Tue Nov  5 20:56:20 2024 ] 	Mean training loss: 1.3875.  Mean training acc: 59.97%.
+[ Tue Nov  5 20:56:20 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 20:56:20 2024 ] Eval epoch: 46
+[ Tue Nov  5 20:56:44 2024 ] 	Mean test loss of 16 batches: 3.562853515148163.
+[ Tue Nov  5 20:56:44 2024 ] 	Top1: 25.25%
+[ Tue Nov  5 20:56:44 2024 ] 	Top5: 49.50%
+[ Tue Nov  5 20:56:44 2024 ] Training epoch: 47
+[ Tue Nov  5 21:01:07 2024 ] 	Mean training loss: 1.3792.  Mean training acc: 59.98%.
+[ Tue Nov  5 21:01:07 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:01:07 2024 ] Eval epoch: 47
+[ Tue Nov  5 21:01:31 2024 ] 	Mean test loss of 16 batches: 3.6205706000328064.
+[ Tue Nov  5 21:01:31 2024 ] 	Top1: 27.15%
+[ Tue Nov  5 21:01:31 2024 ] 	Top5: 49.35%
+[ Tue Nov  5 21:01:31 2024 ] Training epoch: 48
+[ Tue Nov  5 21:05:56 2024 ] 	Mean training loss: 1.3670.  Mean training acc: 60.15%.
+[ Tue Nov  5 21:05:56 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:05:56 2024 ] Eval epoch: 48
+[ Tue Nov  5 21:06:19 2024 ] 	Mean test loss of 16 batches: 3.4512194395065308.
+[ Tue Nov  5 21:06:19 2024 ] 	Top1: 28.60%
+[ Tue Nov  5 21:06:19 2024 ] 	Top5: 50.75%
+[ Tue Nov  5 21:06:19 2024 ] Training epoch: 49
+[ Tue Nov  5 21:10:55 2024 ] 	Mean training loss: 1.3676.  Mean training acc: 60.02%.
+[ Tue Nov  5 21:10:55 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:10:55 2024 ] Eval epoch: 49
+[ Tue Nov  5 21:11:19 2024 ] 	Mean test loss of 16 batches: 3.565346270799637.
+[ Tue Nov  5 21:11:19 2024 ] 	Top1: 25.50%
+[ Tue Nov  5 21:11:19 2024 ] 	Top5: 49.50%
+[ Tue Nov  5 21:11:19 2024 ] Training epoch: 50
+[ Tue Nov  5 21:15:35 2024 ] 	Mean training loss: 1.3668.  Mean training acc: 60.32%.
+[ Tue Nov  5 21:15:35 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:15:35 2024 ] Eval epoch: 50
+[ Tue Nov  5 21:15:59 2024 ] 	Mean test loss of 16 batches: 3.547803148627281.
+[ Tue Nov  5 21:15:59 2024 ] 	Top1: 27.05%
+[ Tue Nov  5 21:15:59 2024 ] 	Top5: 51.85%
+[ Tue Nov  5 21:15:59 2024 ] Training epoch: 51
+[ Tue Nov  5 21:20:21 2024 ] 	Mean training loss: 0.9728.  Mean training acc: 72.04%.
+[ Tue Nov  5 21:20:21 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:20:22 2024 ] Eval epoch: 51
+[ Tue Nov  5 21:20:45 2024 ] 	Mean test loss of 16 batches: 3.2995472252368927.
+[ Tue Nov  5 21:20:45 2024 ] 	Top1: 35.35%
+[ Tue Nov  5 21:20:45 2024 ] 	Top5: 56.60%
+[ Tue Nov  5 21:20:45 2024 ] Training epoch: 52
+[ Tue Nov  5 21:25:01 2024 ] 	Mean training loss: 0.8254.  Mean training acc: 76.29%.
+[ Tue Nov  5 21:25:01 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:25:01 2024 ] Eval epoch: 52
+[ Tue Nov  5 21:25:24 2024 ] 	Mean test loss of 16 batches: 3.3963970839977264.
+[ Tue Nov  5 21:25:24 2024 ] 	Top1: 35.60%
+[ Tue Nov  5 21:25:24 2024 ] 	Top5: 56.90%
+[ Tue Nov  5 21:25:24 2024 ] Training epoch: 53
+[ Tue Nov  5 21:29:48 2024 ] 	Mean training loss: 0.7599.  Mean training acc: 78.14%.
+[ Tue Nov  5 21:29:48 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:29:48 2024 ] Eval epoch: 53
+[ Tue Nov  5 21:30:11 2024 ] 	Mean test loss of 16 batches: 3.4791376888751984.
+[ Tue Nov  5 21:30:11 2024 ] 	Top1: 34.50%
+[ Tue Nov  5 21:30:11 2024 ] 	Top5: 56.55%
+[ Tue Nov  5 21:30:11 2024 ] Training epoch: 54
+[ Tue Nov  5 21:34:38 2024 ] 	Mean training loss: 0.7111.  Mean training acc: 79.92%.
+[ Tue Nov  5 21:34:38 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:34:38 2024 ] Eval epoch: 54
+[ Tue Nov  5 21:35:03 2024 ] 	Mean test loss of 16 batches: 3.413731873035431.
+[ Tue Nov  5 21:35:03 2024 ] 	Top1: 34.90%
+[ Tue Nov  5 21:35:03 2024 ] 	Top5: 56.60%
+[ Tue Nov  5 21:35:03 2024 ] Training epoch: 55
+[ Tue Nov  5 21:39:20 2024 ] 	Mean training loss: 0.6805.  Mean training acc: 80.54%.
+[ Tue Nov  5 21:39:20 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:39:20 2024 ] Eval epoch: 55
+[ Tue Nov  5 21:39:43 2024 ] 	Mean test loss of 16 batches: 3.479323774576187.
+[ Tue Nov  5 21:39:43 2024 ] 	Top1: 34.35%
+[ Tue Nov  5 21:39:43 2024 ] 	Top5: 56.65%
+[ Tue Nov  5 21:39:43 2024 ] Training epoch: 56
+[ Tue Nov  5 21:44:18 2024 ] 	Mean training loss: 0.6626.  Mean training acc: 81.03%.
+[ Tue Nov  5 21:44:18 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:44:18 2024 ] Eval epoch: 56
+[ Tue Nov  5 21:44:41 2024 ] 	Mean test loss of 16 batches: 3.5799593180418015.
+[ Tue Nov  5 21:44:41 2024 ] 	Top1: 34.85%
+[ Tue Nov  5 21:44:41 2024 ] 	Top5: 56.10%
+[ Tue Nov  5 21:44:41 2024 ] Training epoch: 57
+[ Tue Nov  5 21:49:02 2024 ] 	Mean training loss: 0.6297.  Mean training acc: 81.68%.
+[ Tue Nov  5 21:49:02 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:49:02 2024 ] Eval epoch: 57
+[ Tue Nov  5 21:49:25 2024 ] 	Mean test loss of 16 batches: 3.5646625757217407.
+[ Tue Nov  5 21:49:25 2024 ] 	Top1: 35.60%
+[ Tue Nov  5 21:49:25 2024 ] 	Top5: 57.20%
+[ Tue Nov  5 21:49:25 2024 ] Training epoch: 58
+[ Tue Nov  5 21:53:39 2024 ] 	Mean training loss: 0.5975.  Mean training acc: 83.25%.
+[ Tue Nov  5 21:53:39 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:53:39 2024 ] Eval epoch: 58
+[ Tue Nov  5 21:54:03 2024 ] 	Mean test loss of 16 batches: 3.935939833521843.
+[ Tue Nov  5 21:54:03 2024 ] 	Top1: 35.10%
+[ Tue Nov  5 21:54:03 2024 ] 	Top5: 55.15%
+[ Tue Nov  5 21:54:03 2024 ] Training epoch: 59
+[ Tue Nov  5 21:58:32 2024 ] 	Mean training loss: 0.5843.  Mean training acc: 83.41%.
+[ Tue Nov  5 21:58:32 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 21:58:32 2024 ] Eval epoch: 59
+[ Tue Nov  5 21:58:57 2024 ] 	Mean test loss of 16 batches: 3.7190576791763306.
+[ Tue Nov  5 21:58:57 2024 ] 	Top1: 34.30%
+[ Tue Nov  5 21:58:57 2024 ] 	Top5: 56.95%
+[ Tue Nov  5 21:58:57 2024 ] Training epoch: 60
+[ Tue Nov  5 22:03:22 2024 ] 	Mean training loss: 0.5546.  Mean training acc: 84.27%.
+[ Tue Nov  5 22:03:22 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:03:22 2024 ] Eval epoch: 60
+[ Tue Nov  5 22:03:46 2024 ] 	Mean test loss of 16 batches: 3.6891649067401886.
+[ Tue Nov  5 22:03:46 2024 ] 	Top1: 35.05%
+[ Tue Nov  5 22:03:46 2024 ] 	Top5: 56.35%
+[ Tue Nov  5 22:03:46 2024 ] Training epoch: 61
+[ Tue Nov  5 22:08:05 2024 ] 	Mean training loss: 0.5430.  Mean training acc: 84.47%.
+[ Tue Nov  5 22:08:05 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:08:05 2024 ] Eval epoch: 61
+[ Tue Nov  5 22:08:28 2024 ] 	Mean test loss of 16 batches: 3.7734357714653015.
+[ Tue Nov  5 22:08:28 2024 ] 	Top1: 35.10%
+[ Tue Nov  5 22:08:28 2024 ] 	Top5: 55.90%
+[ Tue Nov  5 22:08:28 2024 ] Training epoch: 62
+[ Tue Nov  5 22:13:03 2024 ] 	Mean training loss: 0.5219.  Mean training acc: 85.19%.
+[ Tue Nov  5 22:13:03 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:13:03 2024 ] Eval epoch: 62
+[ Tue Nov  5 22:13:27 2024 ] 	Mean test loss of 16 batches: 3.9075959771871567.
+[ Tue Nov  5 22:13:27 2024 ] 	Top1: 35.30%
+[ Tue Nov  5 22:13:27 2024 ] 	Top5: 56.80%
+[ Tue Nov  5 22:13:27 2024 ] Training epoch: 63
+[ Tue Nov  5 22:17:55 2024 ] 	Mean training loss: 0.5062.  Mean training acc: 85.74%.
+[ Tue Nov  5 22:17:55 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:17:55 2024 ] Eval epoch: 63
+[ Tue Nov  5 22:18:18 2024 ] 	Mean test loss of 16 batches: 4.037086725234985.
+[ Tue Nov  5 22:18:18 2024 ] 	Top1: 33.55%
+[ Tue Nov  5 22:18:18 2024 ] 	Top5: 55.50%
+[ Tue Nov  5 22:18:19 2024 ] Training epoch: 64
+[ Tue Nov  5 22:22:44 2024 ] 	Mean training loss: 0.4879.  Mean training acc: 86.14%.
+[ Tue Nov  5 22:22:44 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:22:44 2024 ] Eval epoch: 64
+[ Tue Nov  5 22:23:07 2024 ] 	Mean test loss of 16 batches: 4.111599877476692.
+[ Tue Nov  5 22:23:07 2024 ] 	Top1: 34.55%
+[ Tue Nov  5 22:23:07 2024 ] 	Top5: 56.10%
+[ Tue Nov  5 22:23:07 2024 ] Training epoch: 65
+[ Tue Nov  5 22:27:30 2024 ] 	Mean training loss: 0.4711.  Mean training acc: 86.84%.
+[ Tue Nov  5 22:27:30 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:27:30 2024 ] Eval epoch: 65
+[ Tue Nov  5 22:27:53 2024 ] 	Mean test loss of 16 batches: 4.13957941532135.
+[ Tue Nov  5 22:27:53 2024 ] 	Top1: 34.60%
+[ Tue Nov  5 22:27:53 2024 ] 	Top5: 56.30%
+[ Tue Nov  5 22:27:53 2024 ] Training epoch: 66
+[ Tue Nov  5 22:32:18 2024 ] 	Mean training loss: 0.4536.  Mean training acc: 87.16%.
+[ Tue Nov  5 22:32:18 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:32:18 2024 ] Eval epoch: 66
+[ Tue Nov  5 22:32:42 2024 ] 	Mean test loss of 16 batches: 3.874535173177719.
+[ Tue Nov  5 22:32:42 2024 ] 	Top1: 34.00%
+[ Tue Nov  5 22:32:42 2024 ] 	Top5: 55.45%
+[ Tue Nov  5 22:32:42 2024 ] Training epoch: 67
+[ Tue Nov  5 22:37:03 2024 ] 	Mean training loss: 0.4414.  Mean training acc: 87.69%.
+[ Tue Nov  5 22:37:03 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:37:03 2024 ] Eval epoch: 67
+[ Tue Nov  5 22:37:26 2024 ] 	Mean test loss of 16 batches: 3.918338343501091.
+[ Tue Nov  5 22:37:26 2024 ] 	Top1: 33.35%
+[ Tue Nov  5 22:37:26 2024 ] 	Top5: 56.10%
+[ Tue Nov  5 22:37:26 2024 ] Training epoch: 68
+[ Tue Nov  5 22:41:50 2024 ] 	Mean training loss: 0.4231.  Mean training acc: 88.22%.
+[ Tue Nov  5 22:41:50 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:41:50 2024 ] Eval epoch: 68
+[ Tue Nov  5 22:42:12 2024 ] 	Mean test loss of 16 batches: 3.9342762529850006.
+[ Tue Nov  5 22:42:12 2024 ] 	Top1: 33.30%
+[ Tue Nov  5 22:42:12 2024 ] 	Top5: 55.05%
+[ Tue Nov  5 22:42:12 2024 ] Training epoch: 69
+[ Tue Nov  5 22:46:46 2024 ] 	Mean training loss: 0.4174.  Mean training acc: 87.94%.
+[ Tue Nov  5 22:46:46 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:46:46 2024 ] Eval epoch: 69
+[ Tue Nov  5 22:47:09 2024 ] 	Mean test loss of 16 batches: 4.124060675501823.
+[ Tue Nov  5 22:47:09 2024 ] 	Top1: 34.45%
+[ Tue Nov  5 22:47:09 2024 ] 	Top5: 55.55%
+[ Tue Nov  5 22:47:09 2024 ] Training epoch: 70
+[ Tue Nov  5 22:51:28 2024 ] 	Mean training loss: 0.4137.  Mean training acc: 88.37%.
+[ Tue Nov  5 22:51:28 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Tue Nov  5 22:51:28 2024 ] Eval epoch: 70
+[ Tue Nov  5 22:51:53 2024 ] 	Mean test loss of 16 batches: 4.093657732009888.
+[ Tue Nov  5 22:51:53 2024 ] 	Top1: 34.50%
+[ Tue Nov  5 22:51:53 2024 ] 	Top5: 55.80%
+[ Tue Nov  5 22:52:16 2024 ] Best accuracy: 0.356
+[ Tue Nov  5 22:52:16 2024 ] Epoch number: 52
+[ Tue Nov  5 22:52:16 2024 ] Model name: ./output/skmixf__V2_JM
+[ Tue Nov  5 22:52:16 2024 ] Model total number of params: 1998023
+[ Tue Nov  5 22:52:16 2024 ] Weight decay: 0.0005
+[ Tue Nov  5 22:52:16 2024 ] Base LR: 0.2
+[ Tue Nov  5 22:52:16 2024 ] Batch Size: 128
+[ Tue Nov  5 22:52:16 2024 ] Test Batch Size: 128
+[ Tue Nov  5 22:52:16 2024 ] seed: 1
